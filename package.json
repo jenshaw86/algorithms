@@ -1,0 +1,23 @@
+{
+  "name": "ctci-problems",
+  "version": "1.0.0",
+  "description": "My solutions / attempts at CTCI Interview Questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenshaw86/ctci-problems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenshaw86/ctci-problems/issues"
+  },
+  "homepage": "https://github.com/jenshaw86/ctci-problems#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
