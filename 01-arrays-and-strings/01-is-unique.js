@@ -11,9 +11,12 @@
 
 
 // Approach: 2
+// assuming we're looking for only unique letters, not including capitals, numbers, symbols, or spaces
+
 function isUnique(str) {
-  // check if str is too long to be unique
+  str = str.toLowerCase();
   if (str.length > 26) return false;
+  //! check if str is too long to be unique. If so, return false
 
   // use a hash map to see what characters have already occured in the string  
   let map = {};

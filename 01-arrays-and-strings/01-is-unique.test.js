@@ -11,3 +11,7 @@ it("is not unique", () => {
 it("has too many characters to be unique", () => {
   expect(isUnique('qwertyuiopasdfghjklzxcvbnma')).toBe(false)
 })
+
+it("it has shared lowercase and uppercase letters", () => {
+  expect(isUnique('Aa')).toBe(false)
+})
