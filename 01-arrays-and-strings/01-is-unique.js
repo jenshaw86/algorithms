@@ -9,6 +9,8 @@
 //   return true;
 // }
 
+// problems here: sorting takes up space, also don't like splitting to array and back to string. 
+
 
 // Approach: 2
 // assuming we're looking for only unique letters, not including capitals, numbers, symbols, or spaces
