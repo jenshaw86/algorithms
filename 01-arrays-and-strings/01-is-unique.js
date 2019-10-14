@@ -12,8 +12,10 @@
 
 // Approach: 2
 function isUnique(str) {
-  // use a hash map to see what characters have already occured in the string  
+  // check if str is too long to be unique
+  if (str.length > 26) return false;
 
+  // use a hash map to see what characters have already occured in the string  
   let map = {};
   
   //! if char already exists, just return false
