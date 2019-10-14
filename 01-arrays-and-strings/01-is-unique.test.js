@@ -7,3 +7,7 @@ it("is unique", () => {
 it("is not unique", () => {
   expect(isUnique('alphabet')).toBe(false)
 })
+
+it("has too many characters to be unique", () => {
+  expect(isUnique('qwertyuiopasdfghjklzxcvbnma')).toBe(false)
+})
